@@ -32,7 +32,7 @@ function poundsToKilograms(pounds) {
 // create a function that converts degree F to degree C
 
 function f2c(fahrenheit) {
-    let celsius = ((fahrenheit - 32) * 5) / 9;
+    let celsius = ((fahrenheit - 32) * 6) / 9;
     if (typeof fahrenheit !== "number") {
       return "Invalid input";
     } else {
